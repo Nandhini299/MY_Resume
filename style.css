@@ -1,0 +1,98 @@
+body{
+    padding:25px;   
+    margin:2px;
+    background-color:cornsilk;
+    font-size: large;
+    /* border-radius:5%; */
+    border: 5px solid black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.name
+{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color:crimson;
+}
+
+.nav-links
+{   
+    position: relative;
+    list-style: none;
+}
+
+.nav-links li
+{
+    /* position: absolute; */
+    display: inline-block;
+    padding:20px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:burlywood;
+    padding:15px 5%;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.p{
+    
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+.Container{
+    /* max-width:40vw; */
+    display:flex;
+    margin:0 auto;
+    padding: 5%;
+    border: 10px black;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 150px;
+    /* font-size: medium; */
+    /* justify-content: center; */
+
+}
+
+.flexOne{
+    flex:1;
+}
+
+.flexTwo{
+    flex:2;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image{
+    width:50%;
+    height:50%;
+    border-radius: 50%;
+    box-shadow:10%;
+} */
+
+.DetailsContainer
+{
+    display: flex;
+    font-size:large;
+    border-radius: 5px;
+
+}
+
+
